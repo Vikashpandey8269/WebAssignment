@@ -1,1 +1,6 @@
-/* start your css here */
+body{
+    background-color:#fff;
+}
+.page h1{
+    align-content: center;
+}
