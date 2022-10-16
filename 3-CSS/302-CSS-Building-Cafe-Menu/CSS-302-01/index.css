@@ -1,1 +1,77 @@
-/* start your css here */
+body{
+  /*  background-color:burlywood;*/
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Roasted_coffee_beans.jpg/1200px-Roasted_coffee_beans.jpg);
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+
+.h1 {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.h2 {
+    text-align: center;
+}
+.menu {
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-width: 500px;
+    
+}
+h1 ,h2 {
+    font-family: Impact, serif;
+}
+.established {
+    font-style: italic;
+}
+hr{
+    height: 2px;
+   background-color: red;
+   border-color: red;
+}
+.flavor , .dessert {
+    text-align: left;
+    width: 75%;
+}
+.price {
+    text-align: right;
+    width: 25%;
+}
+.item p{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.bottom-line {
+    margin-top: 25px;
+}
+
+.footer {
+    font-size: 14px;
+    text-align: center;
+}
+a {
+    color: pink;
+}
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: green;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

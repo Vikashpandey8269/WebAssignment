@@ -1,6 +1,47 @@
 body{
     background-color:#fff;
 }
-.page h1{
-    align-content: center;
+.h1 {
+    text-align: center;
+
 }
+.p{
+    margin-left: 419px;
+    margin-right: 419px;
+    text-align: justify;
+    height: 382px;
+width: 663px;
+left: 419px;
+top: 1375px;
+border-radius: 0px;
+
+    
+
+     
+   
+    
+}
+
+
+.video {
+    margin-left: 419px;
+    margin-right: 419px;
+   
+   
+    
+}
+.p2 {
+    margin-left: 419px;
+    margin-right: 419px;
+    margin-top: 1800;
+    text-align: justify;
+    height: 382px;
+    height: 95px;
+    width: 680px;
+    left: 419px;
+    top: 1799px;
+    border-radius: nullpx;
+    
+
+}
+    
