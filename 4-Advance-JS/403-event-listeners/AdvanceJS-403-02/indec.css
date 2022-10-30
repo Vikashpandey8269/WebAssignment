@@ -1,0 +1,56 @@
+body{
+ text-align: center;
+ background-color: #283169;
+}
+h1{
+    font-size: 5rem;
+    color: white;
+    text-shadow: 3px 0 yellowgreen;
+}
+.drum{
+    outline: none;
+    border: 10px solid #404869;
+    font-size: 5rem;
+    line-height: 2;
+    font-weight: 900;
+    color: palevioletred;
+    text-shadow: 3px 0 blue;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: aliceblue;
+
+
+}
+.w{
+    background-image: url(https://github.com/kanhadharmikk/k4/blob/master/images/crash.png?raw=true);
+
+}
+.a{
+    background-image: url(https://github.com/kanhadharmikk/k4/blob/master/images/tom2.png?raw=true);
+    
+}
+.s{
+    background-image: url(https://github.com/kanhadharmikk/k4/blob/master/images/tom3.png?raw=true);
+    
+}
+.d{
+    background-image: url(https://github.com/kanhadharmikk/k4/blob/master/images/tom1.png?raw=true);
+    
+}
+.j{
+    background-image: url(https://github.com/kanhadharmikk/k4/blob/master/images/snare.png?raw=true);
+    
+}
+.k{
+    background-image: url(https://github.com/kanhadharmikk/k4/blob/master/images/tom4.png?raw=true);
+    
+}
+.l{
+    background-image: url(https://github.com/kanhadharmikk/k4/blob/master/images/kick.png?raw=true);
+    
+}
+
