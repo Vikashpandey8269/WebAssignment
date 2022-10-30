@@ -1,0 +1,80 @@
+body{
+    background-image: url(https://assets.gqindia.com/photos/62a9d4653e8cdc9b632eb2ad/master/pass/10%20restaurants%20in%20Mumbai%20that%20offer%20the%20best%20sunset%20views.jpg);
+margin: 0;
+
+}
+.main{
+    width: 300px;
+    height: 600px;
+    background-color: aliceblue;
+    margin-left: 700px;
+    margin-top: 80px;
+    border-radius: 10px;
+    
+}
+.main h2{
+    color: brown;
+   margin-left: 80px;
+   margin-right: 80px;
+   margin-top: 50px;
+ 
+}
+.main p{
+    margin-left: 30px;
+    color:saddlebrown ;
+    font-weight: bold;
+}
+.r{
+    margin-left: 30px;
+    color: saddlebrown;
+    font-weight: bolder;
+}
+.r input[type='text']{
+    width:120px ;
+    height: 30px;
+    margin-bottom: 20px;
+
+}
+.option{
+    width: 120px;
+    height: 30px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+}
+.cal{
+    width: 230px;
+    height: 60px;
+    margin-left: 30px;
+    background-color: brown;
+    border-color:black;
+    text-align: center;
+    
+    border-width: 3px;
+    font-size: 20px;
+}
+#totaltip {
+    font-size: 40px;
+    margin-top: 20px;
+    text-align: center;
+
+}
+#totaltip::before{
+    content: "Tip total";
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+}
+#totaltip sup {
+    font-size: 20px;
+    top: -18px;
+}
+#totaltip small{
+    font-size: 15px;
+    font-weight: bold;
+    display: block;
+
+}
+
+
+
