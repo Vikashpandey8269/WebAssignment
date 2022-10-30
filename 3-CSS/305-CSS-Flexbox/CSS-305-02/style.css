@@ -1,1 +1,28 @@
-/* start your styling here  */
+.main {
+    width: 400px;
+    height: 500px;
+   
+    background-color: aquamarine;
+    
+    
+    
+}
+ #wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 50px;
+    height: 3pxpx;
+    background-color: red;
+    border-radius: 10px;
+  
+    margin: 12px;
+    box-shadow: var(#f5f4f6);
+}
+.box2{
+flex-grow: 3;
+}

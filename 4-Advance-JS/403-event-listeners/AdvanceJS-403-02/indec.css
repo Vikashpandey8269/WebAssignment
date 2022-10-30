@@ -53,4 +53,16 @@ h1{
     background-image: url(https://github.com/kanhadharmikk/k4/blob/master/images/kick.png?raw=true);
     
 }
+.set {
+    margin: 10% auto;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+ .main img{
+    width: 100px;
+    height: 100px;
+    margin-top: 40px;
+ }
 
