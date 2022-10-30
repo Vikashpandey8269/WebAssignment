@@ -1,6 +1,4 @@
-alert('hi');
-
-let arr=document.getElementsByClassName('container');
+let arr=document.getElementsByClassName('child');
 for(let idx=0;idx<arr.length;idx++){
     if(idx==0){
         arr[idx].style.backgroundColor="blue";
