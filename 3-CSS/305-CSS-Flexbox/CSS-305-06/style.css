@@ -1,1 +1,47 @@
-/* start your styling here  */
+.nav{
+    display: flex;
+    width: 1500px;
+    height: 100px;
+ 
+    
+}
+.nav .log{
+    margin-left: 100px;
+}
+
+.log{
+    width: 300px;
+    height: 60px;
+   
+
+    
+}
+.image{
+    margin-left: 500px;
+}
+
+img{
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+}
+.btn{
+    width: 80px;
+    height: 60px;
+    color: brown;
+    background-color: yellow;
+    margin-left: 50px;
+}
+.sign{
+    width: 80px;
+    height: 60px;
+    border-radius: 20px;
+    border-color: green;
+    border-width: 5px;
+    color: orange;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: black;
+    
+
+}
