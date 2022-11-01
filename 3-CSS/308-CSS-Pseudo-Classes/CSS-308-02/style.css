@@ -1,1 +1,44 @@
-/* start your styling here  */
+body{
+    background-color: green;
+}
+.btn{
+    width: 150px;
+    height: 60px;
+    background-color: orangered;
+    color: aliceblue;
+    font-size: 20px;
+    border: none;
+}
+.btn:hover{
+    background-color: orange;
+}
+
+.dropdown{
+   display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+   
+   
+    z-index: 1;
+    
+    
+}
+a{
+    text-decoration: none;
+    display: block;
+  
+    background-color: gray;
+    color: black;
+    height: 30px;
+}
+
+
+
+.btn:hover + .dropdown{
+    display: block;
+   
+}
+
+
+ 
