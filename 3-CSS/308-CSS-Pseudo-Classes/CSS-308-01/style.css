@@ -1,1 +1,75 @@
-/* start your styling here  */
+.main {
+    width: 1000px;
+    height: 200px;
+    display: flex;
+    margin-right:5px;
+   
+   
+}
+.btn1{
+    width: 100px;
+    height: 50px;
+    border: 3px solid green;
+    background-color: aliceblue;
+    color: green;
+    margin-right: 10px;
+    transition: 0.4s all;
+
+} 
+.btn1:hover{
+    background-color: green;
+    color: aliceblue;
+}
+
+.btn2{
+    width: 100px;
+    height: 50px;
+    border: 3px solid blue;
+    background-color: aliceblue;
+    color: blue;
+    margin-right: 10px;
+
+}
+.btn2:hover{
+    background-color:blue;
+    color: aliceblue;
+}
+.btn3{
+    width: 100px;
+    height: 50px;
+    border: 3px solid orange;
+    background-color: aliceblue;
+    color: orange;
+    margin-right: 10px;
+
+}
+.btn3:hover{
+    background-color: orange;
+    color: aliceblue;
+}
+.btn4{
+    width: 100px;
+    height: 50px;
+    border: 3px solid red;
+    background-color: aliceblue;
+    color: red;
+    margin-right: 10px;
+   
+
+}
+.btn4:hover{
+    background-color: red;
+    color: aliceblue;
+}
+.btn5{
+    width: 100px;
+    height: 50px;
+    border: 1px solid gray;
+    background-color: aliceblue;
+    margin-right: 10px;
+
+}
+.btn5:hover{
+    background-color: gray;
+   
+}
