@@ -5,8 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
   </head>
   <body>
-    Start your code here
+      
+    <div class="header">
+
+      <h1>World countries List</h1>
+      <h4>Total Number of Countries:193</h4>
+    <p>Countries are starting with <span id="alpha">a</span> are <span id="number">0</span>.</p>
+    
+     <div class="btn">
+      <button id="btn1" class="btn1">Starting word</button>
+      <button id="btn2" class="btn2">Search with any Word</button>
+      <button id="btn3" class="btn3"><i class="fa-solid fa-arrow-up-a-z"></i></button>
+     </div>
+  
+    <form id="search-form" class="form">
+      <input id="search-field" type="text" placeholder="Search country ...">
+     
+      <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+ 
+     
+  </form>
+  
+    </div>
+   
+      <table id="table">
+      </table>
+      <script src="countries.js"></script>
+      <script src="index.js"></script>
   </body>
 </html>
