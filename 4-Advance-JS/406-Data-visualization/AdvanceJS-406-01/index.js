@@ -1,10 +1,11 @@
+
 const showres=(e)=>{
     
     display(e.target.value);
  }
  function display(element){
      const filter=countries.filter((value)=>{
-         if(value.name.startsWith(element)){
+         if(value.(element)){
              return true;
          }
          return false;
@@ -23,3 +24,5 @@ const showres=(e)=>{
  }
  
  document.getElementById("search-form").addEventListener("keyup",showres);
+    
+

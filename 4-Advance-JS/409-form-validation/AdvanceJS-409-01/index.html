@@ -5,8 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="index.css">
   </head>
   <body>
-    Start your code here
+    
+    <div class="container">
+      <h1>Validating Web Forms</h1>
+    </div>
+      
+      
+      <form id="myForm" onsubmit="return validation()" >
+          <div class="form-group">
+            <p>First Name</p>
+            <input type="text" id="first_name" class="form-control" autocomplete="off">
+            <br>
+              <span id="firsttag" class="text-danger "></span>
+              </div>
+              <div class="form-group">
+                <p>Last Name</p>
+                <input type="text" id="last_name" class="form-control" autocomplete="off">
+                <br>
+                <span id="lasttag" class="text-danger "></span>
+
+              </div>
+
+            <div class="form-group">
+              <p>Email</p>
+              <input type="email" name="email" id="email" class="form-control" autocomplete="off">
+              <br>
+              <span id="emails" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+              <p>Password</p>
+              <input type="password" name="password" id="password" class="form-control" autocomplete="off">
+              <br>
+              <span id="pass" class="text-danger"></span>
+            </div>
+              
+            <div class="form-group">
+              <p>Telephone</p>
+              <input type="number" name="" id="telephone" class="form-control" autocomplete="off">
+              <br>
+              <span id="tele"  class="text-danger"></span>
+            </div>
+              
+            <div class="form-group">
+              <p>Your bio</p>
+              <input type="text" name="" id="bio" class="form-control" autocomplete="off">
+              <br>
+              <span id="talk" class="text-danger" ></span>
+          </div>
+          
+         <div class="form-group">
+          <br>
+            <button class="btn btn-dark" value="submit">Submit</button>
+         </div>
+      </form>
+      
+  
+    <script src="index.js"></script>
   </body>
 </html>
