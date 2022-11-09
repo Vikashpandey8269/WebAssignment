@@ -1,6 +1,7 @@
 body{
     margin: 0%;
-    background-color: blanchedalmond;
+    background-color: rgb(135, 222, 212);
+  
    
 }
 .header{
@@ -25,11 +26,7 @@ h4{
   
    
 }
-p{
-    color: aliceblue;
-    height: 30px;
-    font-size: 16px;
-}
+
 .btn{
     margin-bottom: 20px;
     
@@ -38,8 +35,10 @@ p{
 .btn1{
     width: 120px;
     height: 40px;
-   background-color:rgb(0,255, 255);
+   background-color:rgb(0, 166, 255);
    border-radius: 3px;
+   outline: none;
+   border: none;
    
 
 }
@@ -65,13 +64,44 @@ input{
     width: 450px;
     height: 30px;
     border-radius: 20px;
-    text-align: center;
+    outline: none;
+  
 }
 .fa-magnifying-glass{
   font-size: 25px;
   color: white;
    
 }
+#grid{
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto ;
+    grid-template-rows: auto auto auto auto auto;
+  
 
+
+}
+p{
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 4px;
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: bold;
+    border: 5px;
+    border-radius: 5px;
+   
+   
+    background-image: url(https://assets.weforum.org/article/image/large_25NbfYbkiuMvTW3P_YO8QeE-SxtvNKGRX9Dgr6W-gNE.jpg);
+}
+.nocountry{
+    color: antiquewhite;
+    font-size: 20px;
+}
+#filter.length{
+   
+}
 
 
