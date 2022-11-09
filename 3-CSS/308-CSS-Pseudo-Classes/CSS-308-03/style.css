@@ -80,6 +80,7 @@ a:hover{
 }
 .container{
     display: flex;
+    background-image: url(shiva.jpg);
   
 }
 .image{
@@ -99,6 +100,9 @@ a:hover{
     font-size: 30px;
     margin-right: 30px;
 }
+i:hover{
+    color: orange;
+}
 section{
     height: auto;
 }
@@ -115,7 +119,7 @@ section{
     font-style: italic;
 }
 .content p{
-    color: rgba(100, 100, 100, 0.922);
+    color: #0f0f0f;
 }
 .page{
     height: 200px;

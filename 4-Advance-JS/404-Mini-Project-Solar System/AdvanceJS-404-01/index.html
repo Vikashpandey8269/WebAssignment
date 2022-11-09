@@ -5,8 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="index.css">
   </head>
   <body>
-    Start your code here
+    <main>
+      <header>
+        <h1>Calculate a weight of an object on a planet</h1>
+  
+      </header>
+      <div class="container">
+        <input type="text" id="input_mass"placeholder="Mass in Kilogram">
+        <select name="" id="select_option" >
+         <option value="">--Select Planet--</option>
+         <option  value= ".98">earth</option>
+         <option value="6.3">jupiter</option>
+         <option value="2.3">mars</option>
+         <option value="2.2">mercury</option>
+         <option value=".6">moon</option>
+         <option value="3.4">nepyune</option>
+         <option value="2.2">pluto</option>
+         <option value="3.3">saturn</option>
+         <option value="3.2">uranus</option>
+         <option value="7.2">venus</option>
+        </select>
+  
+        <button id="click">Calculate weight</button>
+  
+      </div>
+     <div id="container" value="earth">
+       <div class="content">
+        <div class="image">
+         <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Rotating_earth_%28large%29_transparent.gif" alt="">
+        </div>
+        <div class="text">
+         
+          <h3>weight of object on <span id="planet"></span> </h3>
+          <div class="circle">
+            <div id="span2" class="span2">
+              <span id=total>0.00 </span><span>N</span>
+            </div>
+          </div>
+        </div>
+
+
+      </div>   
+
+     </div>
+    </main>
+
+
+
+
+    <script src="index.js"></script>
+   
   </body>
 </html>
