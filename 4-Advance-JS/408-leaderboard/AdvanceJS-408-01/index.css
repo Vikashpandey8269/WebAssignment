@@ -79,8 +79,8 @@ input{
     color: gray;
 }
 
- p{
-    margin-left: -917px;
+ .footer p{
+    margin-left: -898px;
     margin-top: 75px;
     font-size: 17px;
     color: gray;

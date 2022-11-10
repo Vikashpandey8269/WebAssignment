@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+  
+}
+.nav{
+    display: flex;
+   
+    width: 1100px;
+    height: 20px;
+    margin-left: 150px;
+    padding-top: 10px;
+}
+.fa-github{
+    color: aliceblue;
+}
+.nav h3{
+    color: aliceblue;
+    font-size: 15px;
+    margin-left: 5px;
+}
+.logo{
+    align-items: center;
+    display: flex;
+}
+.btn5{
+ margin-left: 880px;
+
+}
+.btn6{
+    color: aliceblue;
+    font-weight: bold;
+    background-color: black;
+    outline: none;
+    border: none;
+    margin-right: 10px;
+}
+.btn6:hover{
+    color: lightpink;
+}
+.btn:hover{
+    background-color:lightpink ;
+    color:darkolivegreen;
+}
+h1:hover{
+    color: lightsalmon;
+}
+.logo :hover{
+    color: lightpink;
+   
+}
+
+.container{
+    width: 1100px;
+    height: 100vh;
+    margin-left: 150px;
+    padding-top: 10px;
+ 
+   
+}
+.container h1{
+    color: aliceblue;
+    font-size:15px;
+    font-style: italic;
+   
+}
+form{
+    border-radius: 8px;
+    display: flex;
+    width: 500px;
+    height: 43px;
+
+    border: 2px solid grey;
+
+}
+.form-control{
+    width: 400px;
+    height: 40px;
+    border-radius: 8px 0px 0px 8px;
+    outline: none;
+}
+.btn{
+    width: 97px;
+    height: 43px;
+    border-radius: 0px 8px 8px 0px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 20px;
+}
+ a{
+    width: 10px;
+    height:20px;
+
+}
+

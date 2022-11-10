@@ -105,12 +105,20 @@ window.addEventListener('load',()=>{
       
 
 
-     date_el=document.createElement("footer");
-      date_el.classList.add("p");
-      date_el.innerHTML="pandey";
+     const date_el=document.createElement("div");
+      date_el.classList.add("footer");
+
+      const p_tag=document.createElement('p');
+      p_tag.innerHTML="jan-30,2022,01:09";
+
+      date_el.appendChild(p_tag);
+      
 
 
       task_el.appendChild(date_el);
+
+
+
 
       
 
@@ -123,10 +131,11 @@ window.addEventListener('load',()=>{
         
         
        delete_btn.addEventListener('click',() =>{
-       task_el.remove();
+       list_el.remove();
     
 
        });
+
     })
     
     
