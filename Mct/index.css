@@ -193,6 +193,7 @@ border: 1px solid rgba(0,0,0,.25);
  
    
 }
+
 .time{
    
    display: grid;
@@ -342,19 +343,22 @@ border: 1px solid rgba(0,0,0,.25);
 }
 .Question_dif{
     width: auto;
-    height: 70px;
+    height: auto;
     margin-left: 20px;
     background-color:#f3f4f5; ;
     margin-right: 20px;
     border: 1px solid rgba(34,36,38,.15);
     box-shadow: 0 1px 2px 0 rgb(34 36 38 / 15%);
+   
     
    
 
 }
 .Question_dif h2{
     padding-left: 30px;
-    padding-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
    
  
 }
@@ -387,7 +391,8 @@ border: 1px solid rgba(0,0,0,.25);
 }
 .menu2{
     width: 1090px;
-  height: 170px;
+    min-height: 100px;
+  height: auto;
    border: 1px solid rgba(34,36,38,.15) ;
     margin-left: 20px;
     margin-right: 20px;
@@ -395,12 +400,25 @@ border: 1px solid rgba(0,0,0,.25);
     padding-top: 10px;
 
 }
-a{
+a {
     margin-left: 30px;
     font-size: 20px;
     text-decoration: none;
-    color: #1b1c1d;
+    
+   
     font-family: Lato,"Helvetica Neue",Arial,Helvetica,sans-serif;
+}
+a:hover{
+    background-color:rgba(34,36,38,.15) ;
+}
+.selected{
+    width: 900px;
+    height: 40px;
+    background-color:  rgba(34,36,38,.15);
+    color:black;
+   
+    border: 1px solid rgba(34,36,38,.15);
+    box-shadow: 0 1px 2px 0 rgb(34 36 38 / 15%);
 }
 .next_button{
     margin-left: 940px;
@@ -426,8 +444,9 @@ a{
     font-size: 20px;
 }
 .fa-forward{
-    margin-left: 20px;
+    margin-left: 10px;
 }
+
  
 
 
