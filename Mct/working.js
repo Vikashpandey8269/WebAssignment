@@ -34,15 +34,18 @@ async function getQuestion(){
 
 
 function showQuestion(data){
-    if(_question.lenght)
+   
      correctAns = data.correct_answer;
     let incorrectAns =data.incorrect_answers;
     let optionsList = incorrectAns;
     optionsList.splice(Math.floor(Math.random() * (incorrectAns.lenght + 1)), 0,correctAns);
+    console.log(optionsList);
    _question.innerHTML=`Q.${data.question}`;
-   option.innerHTML=`${optionsList.map((option) =>`<a> ${option}</a> <br> <br>
+   option.innerHTML=`${optionsList.map((option,index) =>`<li> <a> ${option}</a></li> <br> <br>
+   
 
    `).join('')}`;
+  
 
   selectOption();
     
@@ -74,8 +77,8 @@ function checkAnswer(){
     }
 }
 
-/*
-const textpage=document.getElementById('textpage');
+
+/*const textpage=document.getElementById('textpage');
 const textpage_container=document.createElement('div');
 textpage_container.classList.add('container2');
 
