@@ -1,1 +1,5 @@
-/* start your css here */
+.price{
+    color: gray;
+    font-weight: bold;
+    margin-top: -10px;
+}
