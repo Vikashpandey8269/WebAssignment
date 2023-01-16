@@ -3,14 +3,12 @@
 
 
   body{
-    /* margin-top: 30px;
-    margin-left: 12px;
-    width: 1479px; */
+   
     margin: 0;
     padding: 0;
     background-color: rgb(26, 65, 123);
   }
-  /*  <!-- navbar section --> */
+
    .head-content{
     margin-top: 30px;
     text-align: center;
@@ -49,7 +47,7 @@
    
   }
   .box{
-    /* border: 2px solid black; */
+   
     border-top: 4px solid rgb(6, 6, 41);
   }
   .b1 {
@@ -137,7 +135,7 @@
     justify-content: space-between;
     color: white;
     background-color: rgb(37, 103, 96);
-    /* margin-top: 14px; */
+ 
   }
   .bottom{
     display: flex;

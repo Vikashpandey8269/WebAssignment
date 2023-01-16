@@ -13,6 +13,7 @@ body{
 #header h2{
     font-size: 1.3em;
     background-color: transparent;
+    color: #0a0a23;
 
 }
 .row:nth-of-type(odd){
@@ -30,7 +31,7 @@ body{
   display: flex;
   justify-content:flex-end ;
   text-align: center;
-  border-bottom: 2px solid #0a0a23;
+
   padding: 4px;
   
 }
@@ -61,9 +62,12 @@ p[class~="total"]{
     color: white;
 }
 div > h2{
-    background-color: #99c9ff;
+    
+
     font-size: 1.3em;
     padding: 0 4px;
+    color:#198eee;
+    font-size: 25px;
 
 }
 div~h2{
@@ -73,5 +77,11 @@ p + span{
     font-size: 0.8em;
     font-style: italic;
     color: #0a0a23;
+}
+#header p{
+    background-color:black;
+    color:white;
+    width: 500px;
+    padding-left: -50px;
 }
 
